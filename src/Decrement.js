@@ -15,7 +15,8 @@ class Decrement extends Component {
     };
 
     render(){
-        return (<div> {this.state.number} {" "} 
+        return (<div> 
+        <p>{this.state.number}</p>
         <button onClick={() => this.handleDecrement(this.state)}>Decrement</button>
         </div>);
     }

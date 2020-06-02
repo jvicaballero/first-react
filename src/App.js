@@ -54,6 +54,7 @@ class App extends Component {
       <Decrement start={15}/>
       </>*/
 
+      
       <>
       <ContactCard name="John" mobile="123ds1234561" work="8001231" email="hello@example.com"/>
       <ContactCard name="Joey" mobile="1234ewqeqwe561" work="8001231" email="hello@example.com"/>
